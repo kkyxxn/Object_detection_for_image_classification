@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+
+
+  
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 1px;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+div{
+padding: 30px;
+}
+
+
+#dropbox {
+    border: 2px dashed #000000;
+    padding: 20px;
+    margin:auto;
+}
+
+#dropbox.active {
+    border: 4px dashed #a0d4ff;
+}
+
+.progress-trough {
+    border: 1px solid #fde1e1;
+    height: 24px;
+    width: 100%;
+    position: relative;
+}
+
+.progress-bar {
+    width: 50%;
+    height: 100%;
+    background-color: #bfe6ff;
+}
